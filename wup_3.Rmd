@@ -68,6 +68,8 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 
+The aov test here shows that there is a significant difference somewhere in the data, p = 0.000116 (<0.05).
+
 ## Conclusions
 
 
