@@ -70,6 +70,11 @@ summary.aov(model1)
 
 The aov test here shows that there is a significant difference somewhere in the data, p = 0.000116 (<0.05).
 
+```{r}
+plot(TukeyHSD(model1,conf.level = 0.99))
+```
+
+
 ## Conclusions
 
 The tests ran shows that the back seats disproportionately consume more alcohol than the other categories. The graphical, numerical, and inferential results show a strong difference in the data when comparing the categories. We can say that with a 99% level of confidence that there is a correlation in the data between the back seat and the other categories.
