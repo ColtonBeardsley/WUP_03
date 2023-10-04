@@ -63,7 +63,10 @@ The $\sigma$ is also substantially larger in the back seats as well, more than d
 
 ## Inferential Tests
 
-
+``` {r include = TRUE, echo = FALSE}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
 
 ## Conclusions
 
